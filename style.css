@@ -1,5 +1,11 @@
-.1 img {
+1 {
   border-color: black;
-  width: 20px;
-  heigth: 20px;
+  width: 100px;
+  heigth: 100px;
 }
+
+body{
+  background-color: gray;  
+}
+
+
