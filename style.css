@@ -1,5 +1,30 @@
+.imagemlista li{
+    display: inline-block;
+    margin-right: 10px;
+    flex-direction: column;
+    padding: 1%;
+    margin: 5px;
+    justify-content: space-between;
+    text-shadow: rgb(62, 219, 167);
+    text-align: left;
+    text-indent: 100px; 
+   
+}
+
+.imagem{
+    border-radius: 1%;
+    order: initial;
+    flex-wrap: wrap;
+}
+
+h1{
+    color: rgb(62, 219, 167);
+    text-align: center;
+    font-size: 50px;
+}
+
 body{
-  background-color: gray;  
+    background-color: rgb(196, 174, 174);  
 }
 
 
