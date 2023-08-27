@@ -7,7 +7,7 @@
 .imagem{
     flex:  0 0 calc(33.333% - 20px);
     box-sizing: border-box;
-     max-width: 100%;
+    max-width: 50%;
     height: auto;
     border: 2px solid #ddd;
     border-radius: 8px;
