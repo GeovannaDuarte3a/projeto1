@@ -1,10 +1,10 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffffff30;
+    background-color: white;
 }
 
 header {
-    background-color: #9a3d9680;
+    background-color: purple;
     color: white;
     text-align: center;
     padding: 30px 0;
@@ -27,7 +27,7 @@ header h1 {
     flex: 0 0 calc(33.333% - 20px);
     margin: 30px;
     padding: 200px;
-    background-color: #9a3d9680;
+    background-color: purple;
     border-radius: 8px;
     text-align: center;
 }
@@ -56,5 +56,5 @@ header h1 {
 }
 
 .restaurante a:hover {
-    background-color: #ffffff;
+    background-color: light pink;
 }
