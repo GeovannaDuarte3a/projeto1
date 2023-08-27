@@ -4,19 +4,19 @@
     margin: -10px;
 }
 
-imagem{
+.imagem{
     border-radius: 1%;
     flex:  0 0 calc(33.333% - 20px);
     box-sizing: border-box;
 }
 
-h1{
+.h1{
     color: light green;
     text-align: center;
     font-size: 50px;
 }
 
-body{
+.body{
     background-color: purple;  
 }
 
