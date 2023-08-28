@@ -8,7 +8,7 @@ header {
     color: white;
     text-align: center;
     padding: 10px 0;
-    font-size: 15px;
+    font-size: 10px;
 }
 
 header h1 {
@@ -43,7 +43,7 @@ header h1 {
 
 .restaurante p {
     margin: 10px 0;
-    font-size: 20px;
+    font-size: 10px;
 }
 
 .restaurante a {
@@ -52,7 +52,7 @@ header h1 {
     background-color: #9a396b;
     color: white;
     border-radius: 4px;
-    font-size: 15px;
+    font-size: 10px;
 }
 
 .restaurante a:hover {
