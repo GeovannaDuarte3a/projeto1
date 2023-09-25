@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Áudios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Music Player</h1>
+    </header>
+
+    <main>
+
+        <section class="playlist">
+            <h2>Minha Playlist</h2>
+            <ul>
+                <li>Cidade Vizinha | Henrique e Juliano</li>
+                <li>Desbeijar minha boca | Henrique e Juliano</li>
+                <li>Eu e a saudade | Henrique e Juliano</li>
+                <li>Arruma um caminho | Henrique e Juliano</li>
+                <li>Beijadamente calculado | Henrique e Juliano</li>
+                <li>Quem pegou, pegou | Henrique e Juliano</li>
+                <li>Garrafas Vazias | Henrique e Juliano</li>
+                <li>Rua recaída | Henrique e Juliano</li>
+                <li>Três coração | Henrique e Juliano</li>
+                <li>Granada | Henrique e Juliano</li>
+            </ul>
+        </section>
+
+        <section class="player">
+            <h2>Reprodutor</h2>
+            <audio id="audio-player" controls>
+                <source src="1.mp3" type="audio/mp3">
+                <source src="2.mp3" type="audio/mp3">
+                <source src="3.mp3" type="audio/mp3">
+                <source src="4.mp3" type="audio/mp3">
+                <source src="5.mp3" type="audio/mp3">
+                <source src="6.mp3" type="audio/mp3">
+                <source src="7.mp3" type="audio/mp3">
+                <source src="8.mp3" type="audio/mp3">
+                <source src="9.mp3" type="audio/mp3">
+                <source src="10.mp3" type="audio/mp3">
+                Seu navegador não suporta o elemento de áudio.
+            </audio>
+            
+            <div class="controls">
+                <button onclick="previousTrack()">Anterior</button>
+                <button onclick="playPauseTrack()">Play/Pausa</button>
+                <button onclick="nextTrack()">Próxima</button>
+            </div>
+        </section>
+    </main>
+    <script src="musica.js"></script>
+</body>
+</html>
+
